@@ -1,0 +1,61 @@
+<emotionml version="1.0" xmlns="http://www.w3.org/2009/10/emotionml">
+
+    <!-- Vocabulary definitions -->
+
+    <vocabulary type="category" id="big6">
+        <item name="anger"/>
+        <item name="disgust"/>
+        <item name="fear"/>
+        <item name="happiness"/>
+        <item name="sadness"/>
+        <item name="surprise"/>
+    </vocabulary>
+
+    <!-- Emotion elements -->
+
+    <emotion>
+    <category name="disgust" values="0.07"/>
+      <!-- 老け顔の若者に見世物小屋で舞踏を学ばせる -->
+      '小柄な男が踊っても好くは見られないだろう'
+    </emotion>
+    <emotion>
+    <category name="fear" values="0.5"/>
+      <!-- 崖が切り立った村に突然赤テントが建つ -->
+      '半月ここで興行するから君は千秋楽まで毎日踊りなさい'
+    </emotion>
+    <emotion>
+    <category name="anger" values="0.2"/>
+      <!-- 毎日寝坊をしてきては昏い目のまま舞台に上がる -->
+      '退屈な演目であるから見る価値がない'
+    </emotion>
+    <emotion>
+    <category name="surprise" values="0.78"/>
+      <!-- 眠れない夜の散歩の途すがらの村境に脈打つ竜と6人の子供を見る -->
+      '竜は彼らの言葉に従うみたいだ'
+    </emotion>
+    <emotion>
+    <category name="sadness" values="0.5"/>
+      <!-- 村の全てが醜く逃げ場はない思いに駆られ思わず舞台で叫び出す -->
+      'ああ'
+    </emotion>
+    <emotion>
+    <category name="anger" values="0.69"/>
+      <!-- 埒外の行為が青年の未来を定めた -->
+      '躰こそ見世物なりけれ'
+    </emotion>
+    <emotion>
+    <category name="surprise" values="0.1"/>
+      <!-- 過去最大の寝坊をした最終日の夕方だがもうテントはない -->
+    </emotion>
+    <emotion>
+    <category name="happiness" values="0.4"/>
+      <!-- 本当に老けた大成した彼がいつかの村についての映像を見ている -->
+      'だがあの村で起きたことはどうしても思い出せないのだ'
+    </emotion>
+    <emotion>
+    <category name="fear" values="0.14"/>
+      <!-- 巨大な軍需工場となりかけた村は旧い住民の反対運動により阻止されたという -->
+      'この記録はきっと嘘で全てあの竜と子供達がしたことなのだと私は確信している'
+    </emotion>
+
+</emotionml>
